@@ -1,0 +1,99 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+#formulario, #listaDeTarefas
+{
+    width: 90%;
+    margin: 1.7rem auto;
+    padding: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 28, 0.1);
+}
+
+form #entradaDotexto
+{
+    margin: 1rem 0;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 0.2rem;
+    width: 90%;
+}
+
+form #botaoEnviar
+{
+    padding: 0.3rem 2rem;
+    color: rgb(228, 225, 225);
+    background-color: rgb(1, 83, 191);
+    border: none;
+    width: 90%;
+}
+
+form #botaoEnviar:hover
+{
+    background-color: rgb(6, 64, 139);
+}
+
+form #botaoEnviar:active
+{
+    transform: scale(1.12);
+}
+
+#listaDeTarefas li
+{
+    list-style: none;
+    border: 1px solid rgba(28, 40, 10, 0.5);
+    padding: 0.4rem;
+    font-size: 24px;
+    margin: 0.5rem 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.itemCheckbox
+{
+    color: yellow;
+}
+
+.botaoApagar
+{
+    color: red;
+    background-color: transparent;
+    font-size: 24px;
+    margin-left: 0.5rem;
+    border: none;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.botaoApagar:hover
+{
+    color: rgb(120, 3, 3);
+}
+
+.botaoApagar:active
+{
+    transform: scale(1.12);
+}
+
+.fa-trash
+{
+    font-size: 30px;
+    padding: 0.4rem;
+}
