@@ -68,8 +68,10 @@ form #botaoEnviar:active
 
 .itemCheckbox
 {
-    color: yellow;
+    transform: scale(1.5);
+    margin: 0 0.5rem;
 }
+
 
 .botaoApagar
 {
