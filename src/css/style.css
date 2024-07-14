@@ -99,3 +99,19 @@ form #botaoEnviar:active
     font-size: 30px;
     padding: 0.4rem;
 }
+
+@media (min-width: 650px)
+{
+    #formulario, #listaDeTarefas
+    {
+        width: 60%;
+    }
+}
+
+@media (min-width: 950px)
+{
+    #formulario, #listaDeTarefas
+    {
+        width: 45%;
+    }
+}
